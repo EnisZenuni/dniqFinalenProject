@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Learn Photoshop</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js" integrity="sha512-U3Q2T60uOxOgtAmm9VEtC3SKGt9ucRbvZ+U3ac/wtvNC+K21Id2dNHzRUC7Z4Rs6dzqgXKr+pCRxx5CyOsnUzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<!-- Template Main CSS File -->
+<link href="../static/css/style.css"  rel="stylesheet" th:href="@{/css/style.css}">
+<!-- Vendor CSS Files -->
+<link href="../static/aos/aos.css" rel="stylesheet" th:href="@{/aos/aos.css}">
+<link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+<link href="../static/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" th:href="@{/bootstrap-icons/bootstrap-icons.css}">
+<link href="../static/boxicons/css/boxicons.min.css" rel="stylesheet" th:href="@{/boxicons/css/boxicons.min.css}">
+<link href="../static/glightbox/css/glightbox.min.css" rel="stylesheet" th:href="@{/glightbox/css/glightbox.min.css}">
+<link href="../static/remixicon/remixicon.css" rel="stylesheet" th:href="@{/remixicon/remixicon.css}">
+<link href="../static/swiper/swiper-bundle.min.css" th:href="@{/swiper/swiper-bundle.min.css}" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a href="home.html" th:href="@{/home}">Learn PS</a></h1>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">Classes</a></li>
+                <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                <li class="dropdown"><a href="#"><span>Course</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Intro to Graphic Design</a></li>
+                        <li class="dropdown"><a href="#"><span>Adobe Packets</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Adobe Illustrator</a></li>
+                                <li><a href="#">Adobe XD</a></li>
+                                <li><a href="#">Adobe AfterEffects</a></li>
+                                <li><a href="#">Adobe DreamWeaver</a></li>
+                                <li><a href="#">React Native Apps</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Adobe Packet</a></li>
+                        <li><a href="#">Intro To Photoshop</a></li>
+                        <li><a href="#">Mastering Photoshop</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <form class="form-group">
+                    <div class="pt-2">
+                        <label class="text-white" for="mentor">Mentor: </label>
+                        <input class="form-control" id="mentor" name="mentor">
+                        <br> <br>
+
+                        <div class="mb-3">
+                            <label  for="formFile" class="form-label text-white">Upload your assignment</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <br>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label text-white" for="flexSwitchCheckDefault">The following assignment was done by me.I agree with the plagiarism rules provided by the terms and conditons</label>
+                        </div>
+                    </div>
+                    <br> <br>
+                    <div class="pt-2">
+                        <a th:href="@{/home}" class="btn btn-outline-light">Upload</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section><!-- End Hero -->
+
+
+<span class="text-center d-flex justify-content-center pt-5">ALL RIGHTS RESERVED</span> <br>
+<span class="text-center d-flex justify-content-center">© LEARN PHOTOSHOP</span>
+
+
+
+
+
+</body>
+</html>

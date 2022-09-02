@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Learn Photoshop</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="../static/images/favicon.png" rel="icon">
+    <link href="../static/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../static/aos/aos.css" rel="stylesheet" th:href="@{/aos/aos.css}">
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+    <link href="../static/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" th:href="@{/bootstrap-icons/bootstrap-icons.css}">
+    <link href="../static/boxicons/css/boxicons.min.css" rel="stylesheet" th:href="@{/boxicons/css/boxicons.min.css}">
+    <link href="../static/glightbox/css/glightbox.min.css" rel="stylesheet" th:href="@{/glightbox/css/glightbox.min.css}">
+    <link href="../static/remixicon/remixicon.css" rel="stylesheet" th:href="@{/remixicon/remixicon.css}">
+    <link href="../static/swiper/swiper-bundle.min.css" th:href="@{/swiper/swiper-bundle.min.css}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../static/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="d-flex justify-content-center">
+<div class="container pt-5 pt-5">
+    <p class="text-secondary py-3 border-bottom">
+        As agreed to the terms and conditions before registering each user must take the following quiz this way we can determine the level<br>
+        of skill our user have and redirect you to the courses of your level<br>
+        This way we ensure that all users no matter the skills will benefit from our services
+    </p>
+    <div class="row">
+        <form class="form-group">
+            <p>Which of the following tools belong to Photoshop?</p>
+
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question1answer1">
+                <label class="form-check-label" for="question1answer1">
+                    Pen Tool
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question1answer2" >
+                <label class="form-check-label" for="question1answer2">
+                    Magic Wand
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question1answer3" >
+                <label class="form-check-label" for="question1answer2">
+                    Lasso Tool
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question1answer4">
+                <label class="form-check-label" for="question1answer4">
+                    Fill tool
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question1answer5">
+                <label class="form-check-label" for="question1answer5">
+                    Delocation tool
+                </label>
+            </div>
+
+            <br> <br>
+
+            <div class="form-group">
+                <label for="Question2TextArea1">What are vectors?</label>
+                <textarea class="form-control" id="Question2TextArea1" rows="3"></textarea>
+            </div>
+
+            <br><br>
+            <p>
+                This tool, available  on the drop-down menu of the marquee tool on the toolbar,<br>
+                selects elliptical spaces. To select a round area, hold the shift key while clicking and dragging.
+            </p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question3answer1">
+                <label class="form-check-label" for="question3answer1">
+                    Rectangular marquee tool
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question3answer2">
+                <label class="form-check-label" for="question3answer2">
+                    Elliptical marquee tool
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="question3answer3">
+                <label class="form-check-label" for="question3answer3">
+                    Single row
+                </label>
+            </div>
+
+
+            <br> <br>
+            <a th:href="@{/home}" class="btn btn-primary">Submit</a>
+        </form>
+    </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
